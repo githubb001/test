@@ -1,6 +1,6 @@
-from	ubuntu:14.04
+from  ubuntu:14.04
 
-run apt-get update\
+run	apt-get update
   && apt-get -y install vim dnsutils curl sudo\
   && curl -sSL https://get.docker.com/ | sh\
   && mkdir -p ~/netflix-proxy\
